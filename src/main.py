@@ -11,9 +11,9 @@ WHITE = (225, 225, 225)
 def main():
     pygame.init()
 
-    font_small = pygame.font.Font("assets/fonts/font.ttf", 60)
-    font_smaller = pygame.font.Font("assets/fonts/font.ttf", 30)
-    font_big = pygame.font.Font("assets/fonts/font.ttf", 110)
+    font_small = pygame.font.Font(None, 60)
+    font_smaller = pygame.font.Font(None, 30)
+    font_big = pygame.font.Font(None, 110)
 
     restart_button = pygame.Rect(
         (WINDOW_WIDTH - BUTTON_WIDTH) // 2,
